@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-black text-white font-[Poppins] ">
+    <div class="navbar flex justify-between items-center pt-4 mb-6 fixed right-0 left-0 top-0 z-50 ">
+        <div class="ml-3">
+            <img src="images/Adolf-Hitler-Square-Coaster.png"
+                class="piclogo w-14 object-fill rounded-full opacity-90 ">
+        </div>
+        <div class="flex items-center gap-10 text-2xl  ">
+            <img src="images/search.png" class="searchlogo w-8 object-contain hover:cursor-pointer">
+            <div class="rounded-3xl hover:bg-gray-500 transition-colors duration-300 p-4 pt-1 pb-1 hover:cursor-pointer">Home</div>
+            <div class="rounded-3xl hover:bg-gray-500 transition-colors duration-300 p-4 pt-1 pb-1 hover:cursor-pointer">Shows</div>
+            <div class="rounded-3xl hover:bg-gray-500 transition-colors duration-300 p-4 pt-1 pb-1 hover:cursor-pointer">Movies</div>
+            <div class="rounded-3xl hover:bg-gray-500 transition-colors duration-300 p-5 pt-1 pb-1 hover:cursor-pointer">My Netflix</div>
+        </div>
+        <div class="flex items-center">
+            <img src="images/netflixlogo.png" class="netflixlogo w-14 object-contain mr-3">
+        </div>
+    </div>
+
+    <h2 class="m-6 text-2xl pt-20">My List</h2>
+    <div class="mylist flex overflow-x-scroll scrollbar-hide border-none">
+
+        <div class="movie1 flex flex-col ml-6 group relative">
+            <div class="h-[400px] border-transparent rounded-3xl w-72 shrink-0 overflow-hidden group-hover:w-[600px] group transition-width duration-500 group-hover:border-2 group-hover:border-gray-300">
+                <img src="images/shutisland.png" class="w-full h-full object-fill group-hover:hidden">
+                <img src="images/landshutisland.png" class="w-full h-full object-cover hidden group-hover:block group-hover:opacity-50">
+                <div class="absolute top-[320px] text-5xl left-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:delay-400">Shutter Island</div>
+            </div>
+            <div class="details opacity-0 group-hover:opacity-100 transition-opacity duration-200 group-hover:delay-400">
+                <div class="flex m-2 justify-center">
+                    <div class="mr-6"><a href="#">TV Dramas</a></div>
+                    <div class="mr-6"><a href="#">2022</a></div>
+                    <div class="mr-6"><a href="#">Limited Series</a></div>
+                </div>
+                <div class="text-gray-400">
+                    <p>Shutter Island is a psychological thriller directed by Martin Scorsese, set in 1954. U.S. Marshal
+                        Teddy Daniels is sent to a remote psychiatric hospital on an isolated island to investigate the
+                        disappearance of a patient. As he uncovers more, he begins to question his own sanity. The movie
+                        is filled with twists and turns, making it a gripping tale about mental illness and deception.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie2 flex flex-col ml-6 group relative">
+            <div
+                class="h-[400px] border-transparent rounded-3xl w-72 shrink-0 overflow-hidden group-hover:w-[600px] group transition-width duration-400 group-hover:border-2 group-hover:border-white">
+                <img src="images/inception.png" class="w-full h-full object-fill group-hover:hidden">
+                <img src="images/landinception.png"
+                    class="w-full h-full object-cover hidden group-hover:block group-hover:opacity-50">
+                <div
+                    class="absolute top-[320px] text-5xl left-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:delay-400">
+                    Inception</div>
+            </div>
+            <div
+                class="details opacity-0 group-hover:opacity-100 transition-opacity duration-200 group-hover:delay-400">
+                <div class="flex m-2 justify-center">
+                    <div class="mr-6"><a href="#">Sci-Fi</a></div>
+                    <div class="mr-6"><a href="#">2010</a></div>
+                    <div class="mr-6"><a href="#">Movie</a></div>
+                </div>
+                <div class="text-gray-400">
+                    <p>Directed by Christopher Nolan, Inception is a mind-bending science fiction thriller. The film
+                        follows Dom Cobb, a skilled thief who specializes in extracting secrets from within a person's
+                        subconscious during their dreams. Cobb is offered a chance to have his criminal record erased if
+                        he can successfully perform "inception" — planting an idea in someone's mind. The complex plot
+                        dives into themes of reality, dreams, and the power of the mind.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie3 flex flex-col ml-6 group relative">
+            <div
+                class="h-[400px] border-transparent rounded-3xl w-72 shrink-0 overflow-hidden group-hover:w-[600px] group transition-width duration-400 group-hover:border-2 group-hover:border-white">
+                <img src="images/fifty.png" class="w-full h-full object-fill group-hover:hidden">
+                <img src="images/maxresdefault.png"
+                    class="w-full h-full object-cover hidden group-hover:block group-hover:opacity-50">
+                <div
+                    class="absolute top-[320px] text-5xl left-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:delay-400">
+                    Fifty Shades of Grey</div>
+            </div>
+            <div
+                class="details opacity-0 group-hover:opacity-100 transition-opacity duration-200 group-hover:delay-400">
+                <div class="flex m-2 justify-center">
+                    <div class="mr-6"><a href="#">Romance</a></div>
+                    <div class="mr-6"><a href="#">2015</a></div>
+                    <div class="mr-6"><a href="#">Movie</a></div>
+                </div>
+                <div class="text-gray-400">
+                    <p>Fifty Shades of Grey is a romantic drama based on the best-selling novel by E.L. James. The film
+                        follows Anastasia Steele, a shy college graduate who becomes romantically involved with
+                        Christian Grey, a wealthy and enigmatic businessman with a dark past. Their relationship
+                        explores themes of power, control, and desire, as both navigate their personal boundaries and
+                        secrets.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie4 flex flex-col ml-6 group relative">
+            <div
+                class="h-[400px] border-transparent rounded-3xl w-72 shrink-0 overflow-hidden group-hover:w-[600px] group transition-width duration-400 group-hover:border-2 group-hover:border-white">
+                <img src="images/predestination-2014.png" class="w-full h-full object-fill group-hover:hidden">
+                <img src="images/predland.png"
+                    class="w-full h-full object-cover hidden group-hover:block group-hover:opacity-50">
+                <div
+                    class="absolute top-[320px] text-5xl left-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:delay-400">
+                    Predestination</div>
+            </div>
+            <div
+                class="details opacity-0 group-hover:opacity-100 transition-opacity duration-200 group-hover:delay-400">
+                <div class="flex m-2 justify-center">
+                    <div class="mr-6"><a href="#">Sci-Fi</a></div>
+                    <div class="mr-6"><a href="#">2014</a></div>
+                    <div class="mr-6"><a href="#">Movie</a></div>
+                </div>
+                <div class="text-gray-400">
+                    <p>Predestination is a mind-bending time-travel thriller directed by Michael and Peter Spierig. The
+                        film follows a temporal agent on his final mission to stop a mysterious criminal who has evaded
+                        capture for decades. As the story unfolds, it explores paradoxes and the complexities of
+                        identity and fate.</p>
+                </div>
+            </div>
+        </div>
+        <div class="movie5 flex flex-col ml-6 group relative">
+            <div
+                class="h-[400px] border-transparent rounded-3xl w-72 shrink-0 overflow-hidden group-hover:w-[600px] group transition-width duration-400 group-hover:border-2 group-hover:border-white">
+                <img src="images/tenet.png" class="w-full h-full object-fill group-hover:hidden">
+                <img src="images/tenekabdt.png" class="w-full h-full object-cover hidden group-hover:block group-hover:opacity-50">
+                <div
+                    class="absolute top-[320px] text-5xl left-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:delay-400">
+                    Tenet</div>
+            </div>
+            <div
+                class="details opacity-0 group-hover:opacity-100 transition-opacity duration-200 group-hover:delay-400">
+                <div class="flex m-2 justify-center">
+                    <div class="mr-6"><a href="#">Action</a></div>
+                    <div class="mr-6"><a href="#">2020</a></div>
+                    <div class="mr-6"><a href="#">Movie</a></div>
+                </div>
+                <div class="text-gray-400">
+                    <p>Tenet is a complex sci-fi action thriller directed by Christopher Nolan. The story follows a
+                        protagonist armed with only one word — Tenet — as he fights for the survival of the world
+                        through a mission that unfolds beyond real-time. With its intricate plot and groundbreaking
+                        visuals, the film explores the concept of time inversion.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie6 flex flex-col ml-6 group relative">
+            <div
+                class="h-[400px] border-transparent rounded-3xl w-72 shrink-0 overflow-hidden group-hover:w-[600px] group transition-width duration-400 group-hover:border-2 group-hover:border-white">
+                <img src="images/ninja.png" class="w-full h-full object-fill group-hover:hidden">
+                <img src="images/ninjaland.png"
+                    class="w-full h-full object-cover hidden group-hover:block group-hover:opacity-50">
+                <div
+                    class="absolute top-[320px] text-5xl left-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:delay-400">
+                    Ninja Assassin</div>
+            </div>
+            <div
+                class="details opacity-0 group-hover:opacity-100 transition-opacity duration-200 group-hover:delay-400">
+                <div class="flex m-2 justify-center">
+                    <div class="mr-6"><a href="#">Action</a></div>
+                    <div class="mr-6"><a href="#">2009</a></div>
+                    <div class="mr-6"><a href="#">Movie</a></div>
+                </div>
+                <div class="text-gray-400">
+                    <p>Ninja Assassin is a high-intensity martial arts film directed by James McTeigue. The story
+                        follows Raizo, one of the deadliest assassins in the world, who turns against the organization
+                        that trained him after they brutally murder his friend. It's a thrilling journey of revenge,
+                        loyalty, and redemption.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie7 flex flex-col ml-6 group relative">
+            <div
+                class="h-[400px] border-transparent rounded-3xl w-72 shrink-0 overflow-hidden group-hover:w-[600px] group transition-width duration-400 group-hover:border-2 group-hover:border-white">
+                <img src="images/how_to_train_your_dragon_poster.png" class="w-full h-full object-fill group-hover:hidden">
+                <img src="images/howtodragon.png"
+                    class="w-full h-full object-cover hidden group-hover:block group-hover:opacity-50">
+                <div
+                    class="absolute top-[320px] text-5xl left-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:delay-400">
+                    How to Train Dragon</div>
+            </div>
+            <div
+                class="details opacity-0 group-hover:opacity-100 transition-opacity duration-200 group-hover:delay-400">
+                <div class="flex m-2 justify-center">
+                    <div class="mr-6"><a href="#">Animation</a></div>
+                    <div class="mr-6"><a href="#">2010</a></div>
+                    <div class="mr-6"><a href="#">Movie</a></div>
+                </div>
+                <div class="text-gray-400">
+                    <p>How to Train Your Dragon is an animated adventure film directed by Dean DeBlois and Chris
+                        Sanders. Set in a mythical Viking world, it tells the story of Hiccup, a young Viking who defies
+                        tradition by befriending a dragon. The movie explores themes of friendship, understanding, and
+                        courage.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
